@@ -1,5 +1,6 @@
 package com.tvs.iot.service;
 
+import com.tvs.iot.domain.ModelWs;
 import com.tvs.iot.domain.Setting;
 import com.tvs.iot.domain.User;
 import com.tvs.iot.domain.UserDTO;
@@ -17,6 +18,8 @@ public interface UserService {
     public int updateSettings(String id, String value_settings);
 
     public int  getwscount();
+
+    public List<ModelWs>  loadModelWSMapping();
 
 }
 

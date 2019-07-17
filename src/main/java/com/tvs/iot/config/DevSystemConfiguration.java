@@ -9,11 +9,13 @@ import org.springframework.context.annotation.Profile;
 public class DevSystemConfiguration implements SystemConfiguration {
 
 
-    private String profileimagebaseuploadfolder = "/Users/sivadineshm/documents/backup/img/profiles/";
-    private String paymentproofpicsuploadfolder =  "/Users/sivadineshm/documents/backup/img/enrolments/";
 
-    private String assessmenttemplatefolder =  "/Users/sivadineshm/documents/products/befit/";
-    private String assessmentoutputfolder =  "/Users/sivadineshm/documents/products/befit/";
+
+
+    // private String workstationimagemodule =  "/Users/sivadineshm/documents/backup/img/tvs";
+
+    private String workstationimagemodule =  "/Library/WebServer/Documents/assets/img/tvs";
+
 
     private String memberupload = "";
 
@@ -32,16 +34,11 @@ public class DevSystemConfiguration implements SystemConfiguration {
     }
 
 
-    public String getProfileImageBaseUploadFolder() {
-        return this.profileimagebaseuploadfolder;
+    public String getWorkStationImageModuleUploadFolder() {
+        return this.workstationimagemodule;
     }
 
-    public String getPaymentProofPicsUploadFolder() {
-        return this.paymentproofpicsuploadfolder;
-    }
 
-    public String getAssessmenttemplatefolder() { return this.assessmenttemplatefolder; }
 
-    public String getAssessmentoutputfolder() { return this.assessmentoutputfolder; }
 
 }

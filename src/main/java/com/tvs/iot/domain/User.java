@@ -8,6 +8,7 @@ import lombok.Data;
 
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Data
@@ -26,5 +27,12 @@ public class User {
     private String phone;
     private int enabled;
     private String status;
+
+    private Long createdby;
+    private Date createddatetime;
+
+
+    private Long updatedby;
+    private Date updateddatetime;
 
 }

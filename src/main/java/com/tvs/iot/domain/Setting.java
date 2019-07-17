@@ -3,10 +3,11 @@ package com.tvs.iot.domain;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Data
-@Table(name = "setting")
+@Table(name = "settings")
 public class Setting {
 
     @Id
@@ -16,5 +17,9 @@ public class Setting {
     private String key_settings;
     private String value_settings;
 
+    private Long createdby;
+    private Date createddatetime;
 
+    private Long updatedby;
+    private Date updateddatetime;
 }

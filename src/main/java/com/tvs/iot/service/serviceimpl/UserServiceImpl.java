@@ -1,5 +1,6 @@
 package com.tvs.iot.service.serviceimpl;
 
+import com.tvs.iot.domain.ModelWs;
 import com.tvs.iot.domain.Setting;
 import com.tvs.iot.domain.User;
 import com.tvs.iot.domain.UserDTO;
@@ -87,9 +88,21 @@ public class UserServiceImpl implements UserService {
 
         StringBuilder sbr = new StringBuilder();
 
-        sbr.append(" select id, key_settings, value_settings from settings ");
+        sbr.append(" select * from settings ");
 
         Query query = entityManager.createNativeQuery(sbr.toString(), Setting.class);
+        return query.getResultList();
+
+
+    }
+
+    public List<ModelWs>  loadModelWSMapping() {
+
+        StringBuilder sbr = new StringBuilder();
+
+        sbr.append(" select * from modelws ");
+
+        Query query = entityManager.createNativeQuery(sbr.toString(), ModelWs.class);
         return query.getResultList();
 
 

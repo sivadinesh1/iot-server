@@ -7,24 +7,28 @@ import java.util.Date;
 
 @Entity
 @Data
-@Table(name = "model")
-public class Model {
+@Table(name = "modelws")
+public class ModelWs {
+
+
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false, updatable = false)
     private Long id;
-
-    private String partnumber;
-    private String module;
-    private Integer nooftags;
-    private String isactive;
+    private String modelid;
+    private String assemblyimagename;
+    private String workstation;
+    private String assemblyimageurl;
 
     private Long createdby;
     private Date createddatetime;
 
     private Long updatedby;
     private Date updateddatetime;
+
+  //  private String tagtype;
+
+
 }
-
-

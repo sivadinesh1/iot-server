@@ -1,13 +1,18 @@
 package com.tvs.iot.web.api;
 
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tvs.iot.business.RFIDTagProcessor;
+import com.tvs.iot.business.RFIDTagReaderClient;
+import com.tvs.iot.domain.ModelWsDTO;
 import com.tvs.iot.domain.Setting;
 import com.tvs.iot.domain.User;
 import com.tvs.iot.domain.UserDTO;
 import com.tvs.iot.service.UserService;
 import com.tvs.iot.service.serviceimpl.UserServiceImpl;
-import com.tvs.iot.socket.GreetClient;
-import com.tvs.iot.socket.GreetServer;
+
+import com.tvs.iot.business.GreetServer;
 import com.tvs.iot.util.*;
 import lombok.extern.slf4j.Slf4j;
 import org.json.simple.JSONArray;
@@ -52,8 +57,7 @@ public class FrontEndController {
     UserService userservice;
 
 
-//    @Autowired
-//    GreetClient greetClient;
+    RFIDTagReaderClient rfidTagReaderClient = new RFIDTagReaderClient();
 
     @Autowired
     private ConfigUtility configUtil;
@@ -72,96 +76,73 @@ public class FrontEndController {
 
 
     @CrossOrigin(origins = "http://localhost:4200")
-    @GetMapping(value = "/test-data", headers="Accept=*/*",
+    @GetMapping(value = "/live-data", headers="Accept=*/*",
             produces = MediaType.TEXT_EVENT_STREAM_VALUE
     )
-    public SseEmitter getFeedbackTest() {
-        String test = "";
+    public SseEmitter getLiveRFIDTags() {
+        String data = "";
         SseEmitter emitter = new SseEmitter();
         try {
-            test = GreetClient.getHexval();
-            System.out.println(">><<<<<<<<<<< " + test);
+        //    System.out.println(">><<<<<<<<<<< TEST ");
 
-//            PrintWriter out = response.write("data: message"+value+"\n\n");
-//            out.flush();
+            data = rfidTagReaderClient.getRFIDStringVal();
+       //     System.out.println(">><<<<<<<<<<< " + data);
 
-            emitter.send(test, MediaType.APPLICATION_JSON);
+            if(data != null) {
+          //      System.out.println("inside null check");
+                emitter.send(data, MediaType.APPLICATION_JSON);
+                emitter.complete();
+            }
+
+
+
         } catch (Exception e) {
-            System.out.println("test " + e.getMessage());
+            System.out.println("ERROR in getLiveRFIDTags " + e.getMessage());
         }
-return  emitter;
+        return  emitter;
 
-      //  return new ResponseEntity(emitter, HttpStatus.OK);
     }
 
 
-
-
-    @GetMapping(value = "/test1",
+    @CrossOrigin(origins = "http://localhost:4200")
+    @GetMapping(value = "/live-data/{workstation}", headers="Accept=*/*",
             produces = MediaType.TEXT_EVENT_STREAM_VALUE
     )
-    public ResponseEntity getFeedback() {
-        String test = "";
-        System.out.println("iam one");
-        for(int i=0; i<10; i++) {
-            System.out.println("iam looped >> " + i);
-            test = "data: "+ System.currentTimeMillis() +"\n\n";
+    public SseEmitter getLiveData(@PathVariable("workstation") String workstation) {
+       StringBuilder data = new StringBuilder();
 
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        SseEmitter emitter = new SseEmitter();
+        try {
+            ModelWsDTO modelWsDTO = RFIDTagProcessor.getLiveData(workstation);
+
+            if(modelWsDTO != null) {
+
+                data.append("WSST").append(modelWsDTO.getWorkstation());
+                data.append("WSED");
+
+                data.append("IMGST").append(modelWsDTO.getAssemblyimagename());
+                data.append("IMGED");
+
+                data.append("IMGURLST").append(modelWsDTO.getAssemblyimageurl());
+                data.append("IMGURLED");
+
+                System.out.println("[[data]] " + data.toString());
+
+                emitter.send(data.toString(), MediaType.TEXT_EVENT_STREAM);
+                emitter.complete();
             }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("ERROR in getLiveRFIDTags " + e.getMessage());
         }
+        return  emitter;
 
-
-        return new ResponseEntity(test, HttpStatus.OK);
     }
 
 
 
-    @GetMapping(value = "/jobs",
-            produces = MediaType.TEXT_EVENT_STREAM_VALUE
-    )
-    public ResponseEntity getJobs() {
-        String test = "defaut";
-
-        long start_time = System.currentTimeMillis();
-        long wait_time = 10000;
-        long end_time = start_time + wait_time;
-
-
-        Stack<String> STACK = new Stack<String>();
-        STACK.push("Welcome 1");
-        STACK.push("To");
-        STACK.push("Geeks");
-        STACK.push("For");
-        STACK.push("Geeks");
-
-        System.out.println("MMMM >> " );
-        //while (System.currentTimeMillis() < end_time) {
-
-            for (int i = 0; i < 500000; i++) {
-
-            System.out.println("inside loop >> " + STACK);
-
-            test = "data: " + STACK.peek() + " && " + System.currentTimeMillis() +"\n\n";
-
-            String temppop = STACK.pop();
-            System.out.println("STACK AGAIN loop >> " + STACK);
-
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
-
-
-
-        return new ResponseEntity(test, HttpStatus.OK);
-    }
 
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(value = "/signin", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
@@ -170,23 +151,14 @@ return  emitter;
         User user = null;
         UserDTO userDTO = null;
         try {
-        System.out.println("TEST >>" + stringToParse);
 
-        System.out.println("TEST 1 >> ");
         JSONObject result = Helper.getJsonObj(stringToParse);
-        System.out.println("TEST22 >>" + result);
 
         String username = (String) result.get("username");
         String password = (String) result.get("password");
 
-        System.out.println("username " + username);
-        System.out.println("password " + password);
 
-
-
-          userDTO = userservice.signin(username, password);
-
-            System.out.println("TSETS >> " + userDTO);
+        userDTO = userservice.signin(username, password);
 
 
     } catch (Exception e ) {
@@ -195,6 +167,18 @@ return  emitter;
     }
 
         if(userDTO.getUserid() != null) {
+
+
+            ObjectMapper mapper = new ObjectMapper();
+
+            try {
+                json = mapper.writeValueAsString(userDTO);
+
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+            }
+
+
             return new ResponseEntity<>(new APIResponse("success", HttpStatus.OK, json), HttpStatus.OK);
         } else {
             return new ResponseEntity<>(new APIResponse("failure", HttpStatus.OK, json), HttpStatus.OK);
@@ -229,115 +213,63 @@ return  emitter;
 
 
 
-    @CrossOrigin(origins = "http://localhost:4200")
-    @PostMapping(value = "/start-server",
-            produces = MediaType.APPLICATION_JSON_VALUE
-    )
-    public ResponseEntity getStartServer(@RequestBody String stringToParse, BindingResult bindingResult) {
-        System.out.println("TEST >>" + stringToParse);
-        String statusval = "";
-
-        System.out.println("TEST 1 >> ");
-        JSONObject result = Helper.getGeneric(stringToParse);
-        System.out.println("TEST22 >>" + result);
-
-        String host = (String) result.get("host");
-        String port = (String) result.get("port");
-
-        System.out.println("username " + host);
-        System.out.println("password " + port);
-
-
-       // greetServer.startServer(host, Integer.parseInt(port));
-        boolean status = Helper.hostAvailabilityCheck(host, Integer.parseInt(port));
-        System.out.println("server status >> " + status);
-
-        if(status) {
-            statusval = "Server Starting Failed";
-        } else {
-            statusval = "Server Started";
-        }
-
-        return new ResponseEntity<>(new APIResponse("success", HttpStatus.OK, statusval ), HttpStatus.OK);
-
-    }
 
     @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping(value = "/stop-server",
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     public ResponseEntity getStopServer(@RequestBody String stringToParse, BindingResult bindingResult) {
-        System.out.println("TEST >>" + stringToParse);
         String statusval = "";
 
-        System.out.println("TEST 1 >> ");
         JSONObject result = Helper.getGeneric(stringToParse);
-        System.out.println("TEST22 >>" + result);
 
         String host = (String) result.get("host");
         String port = (String) result.get("port");
 
-        System.out.println("username " + host);
-        System.out.println("password " + port);
 
     try {
-
+        System.out.println("closing connections");
         GreetServer.closeServer();
+        rfidTagReaderClient.stopClientSocket();
     } catch (Exception e ) {
         System.out.println("err " + e.getMessage());
     }
 
 
-        boolean status = Helper.hostAvailabilityCheck(host, Integer.parseInt(port));
-        System.out.println("server status >> " + status);
 
-        if(status) {
-            statusval = "Failed to Stop Server";
-        } else {
-            statusval = "Server Stopped";
-        }
 
         return new ResponseEntity<>(new APIResponse("success", HttpStatus.OK, "" ), HttpStatus.OK);
 
     }
 
     @CrossOrigin(origins = "http://localhost:4200")
-    @PostMapping(value = "/server-status",
+    @GetMapping(value = "/start-client",
             produces = MediaType.APPLICATION_JSON_VALUE
     )
-    public ResponseEntity getServerStatus(@RequestBody String stringToParse, BindingResult bindingResult) {
-        System.out.println("TEST >>" + stringToParse);
-
+    public ResponseEntity getStartClient() {
         String statusval = "";
 
-        System.out.println("TEST 1 &&& >> ");
-        JSONObject result = Helper.getGeneric(stringToParse);
-        System.out.println("TEST22 >>" + result);
+      //  JSONObject result = Helper.getGeneric(stringToParse);
 
-        String host = (String) result.get("host");
-        String port = (String) result.get("port");
-
-        System.out.println("username &&& " + host);
-        System.out.println("password &&& " + port);
-
-        System.out.println("username &&& " + host);
+//        String host = (String) result.get("host");
+//        String port = (String) result.get("port");
 
 
-        boolean status = Helper.hostAvailabilityCheck(host, Integer.parseInt(port));
-        System.out.println("server status >> " + status);
-
-        if(status) {
-
-            statusval = "Running";
-            return new ResponseEntity<>(new APIResponse("running", HttpStatus.OK, "" ), HttpStatus.OK);
-        } else {
-            System.out.println("check ");
-            statusval = "Not Running";
-            return new ResponseEntity<>(new APIResponse("notrunning", HttpStatus.OK, "" ), HttpStatus.OK);
+        try {
+            System.out.println("starting client connections");
+            RFIDTagReaderClient rfidTagReaderClient = new RFIDTagReaderClient();
+            rfidTagReaderClient.startConnection("192.168.0.1", 2112);
+        } catch (Exception e ) {
+            System.out.println("err " + e.getMessage());
         }
 
 
+
+
+        return new ResponseEntity<>(new APIResponse("success", HttpStatus.OK, "" ), HttpStatus.OK);
+
     }
+
 
     @CrossOrigin(origins = "http://localhost:4200")
     @RequestMapping(
@@ -388,23 +320,18 @@ return  emitter;
             Thread t1 =new Thread(new GreetServer(host, Integer.parseInt(port)));
             t1.start();
 
-            Thread.sleep(1000);
+            Thread.sleep(500);
 
-            //greetServer.startServer(host, Integer.parseInt(port));
-            System.out.println("tests......");
 
-            Thread t2 =new Thread(new GreetClient(host, Integer.parseInt(port)));
+            Thread t2 =new Thread(new RFIDTagReaderClient(host, Integer.parseInt(port)));
             t2.start();
 
-            //greetClient.startConnection(host, Integer.parseInt(port));
+
 
         } catch (Exception e ) {
             System.out.println("Error " + e.getMessage());
             e.printStackTrace();
         }
-
-
-        System.out.println("tests...####...");
 
 
         return new ResponseEntity<>(new APIResponse("running-simulation", HttpStatus.OK, statusval ), HttpStatus.OK);

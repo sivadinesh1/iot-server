@@ -54,6 +54,28 @@ public class Helper {
     @Autowired
     private SystemConfiguration systemconfiguration;
 
+    public String getWorkStationImageModuleUploadFolder() {
+        return systemconfiguration.getWorkStationImageModuleUploadFolder();
+    }
+
+    public static long binary_to_decimal(String sc) {
+        {
+
+            long binaryNumber, decimalNumber = 0, j = 1, remainder;
+            binaryNumber = Long.parseLong(sc, 10);
+
+            while (binaryNumber != 0)
+            {
+                remainder = binaryNumber % 10;
+                decimalNumber = decimalNumber + remainder * j;
+                j = j * 2;
+                binaryNumber = binaryNumber / 10;
+            }
+
+            return decimalNumber;
+        }
+    }
+
     public static int hex_to_decimal(String s) {
         String digits = "0123456789ABCDEF";
         s = s.toUpperCase();
