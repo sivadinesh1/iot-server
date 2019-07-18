@@ -247,24 +247,15 @@ public class FrontEndController {
             produces = MediaType.APPLICATION_JSON_VALUE
     )
     public ResponseEntity getStartClient() {
-        String statusval = "";
-
-      //  JSONObject result = Helper.getGeneric(stringToParse);
-
-//        String host = (String) result.get("host");
-//        String port = (String) result.get("port");
-
 
         try {
             System.out.println("starting client connections");
-            RFIDTagReaderClient rfidTagReaderClient = new RFIDTagReaderClient();
-            rfidTagReaderClient.startConnection("192.168.0.1", 2112);
+            Thread tclient =new Thread(new RFIDTagReaderClient("192.168.0.1", 2112));
+            tclient.start();
+
         } catch (Exception e ) {
             System.out.println("err " + e.getMessage());
         }
-
-
-
 
         return new ResponseEntity<>(new APIResponse("success", HttpStatus.OK, "" ), HttpStatus.OK);
 

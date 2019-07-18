@@ -45,9 +45,12 @@ public class RFIDTagProcessor {
                     // get JIG Seq# to decide if the shift has happened or not
                     String newJigSequenceNumber = getJigSequenceNumber(rfidInput);
 
-                    System.out.println("[[[JIG]]] My Sequence # : " + newJigSequenceNumber);
+                    System.out.println("[[[JIG]]] newJigSequenceNumber My Sequence # : " + newJigSequenceNumber);
+                    System.out.println("[[[JIG]]] currentJig My Sequence # : " + currentJig);
 
-                    if(newJigSequenceNumber != currentJig) {
+
+//                    if(newJigSequenceNumber != currentJig) {
+                    if(!newJigSequenceNumber.equalsIgnoreCase(currentJig)) {
                         if(!currentModel.equalsIgnoreCase("")){
                             shiftWorkStations(currentModel);
                         }
@@ -147,7 +150,7 @@ public class RFIDTagProcessor {
      * @return
      */
     public static String getModelNumber(String rfidInput) {
-        String tempModelNumber = rfidInput.substring(10,21);
+        String tempModelNumber = rfidInput.substring(8,20);
         System.out.println("Model String " + tempModelNumber);
         String modelnumber = String.valueOf(Helper.binary_to_decimal(tempModelNumber.trim()));
         return modelnumber;
@@ -161,7 +164,7 @@ public class RFIDTagProcessor {
      * @return
      */
     public static String getJigSequenceNumber(String rfidInput) {
-        String tempSequenceNumber = rfidInput.substring(10,41);
+        String tempSequenceNumber = rfidInput.substring(8,40);
         System.out.println("Calculating Jig Seq # " + tempSequenceNumber);
         String seq = String.valueOf(Helper.binary_to_decimal(tempSequenceNumber.trim()));
 
@@ -176,7 +179,7 @@ public class RFIDTagProcessor {
      */
     public static String isJigorModel(String rfidInput) {
         System.out.println("TEST >> " + rfidInput);
-        String tempTagType = rfidInput.substring(0,9);
+        String tempTagType = rfidInput.substring(0,8);
         System.out.println("TEST >> " + tempTagType);
         if(Helper.binary_to_decimal(tempTagType.trim()) == 0) {
             return "model";

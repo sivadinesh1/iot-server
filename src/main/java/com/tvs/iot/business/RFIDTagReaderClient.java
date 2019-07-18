@@ -15,7 +15,7 @@ public class RFIDTagReaderClient implements Runnable {
 
     static Socket echoSocket = null;
 
-     public static int Rfid_tag_bit_size = 98;
+     public static int Rfid_tag_bit_size = 97;
 
    // public static int Rfid_tag_bit_size = Integer.parseInt(AppSettings.getRfid_tag_bit_size());
 
@@ -37,8 +37,8 @@ public class RFIDTagReaderClient implements Runnable {
 
       try {
            echoSocket = new Socket(host, port);
-        //  Socket echoSocket = new Socket("192.168.0.1", 2112);
-
+         // Socket echoSocket = new Socket("192.168.0.1", 2111);
+          System.out.println("Reader connectio made ");
           dout = new DataInputStream(echoSocket.getInputStream());
 
           byte[] rfidInput = new byte[Rfid_tag_bit_size];
@@ -46,10 +46,14 @@ public class RFIDTagReaderClient implements Runnable {
           int data = 0;
             while ((data = dout.read(rfidInput)) != -1) {
                 RFIDStringVal = new String(rfidInput);
+                System.out.println("Received TAG Value " + RFIDStringVal);
 
                 if(data == Rfid_tag_bit_size) {
 
-                  RFIDTagProcessor.processRFIDTag(RFIDStringVal);
+                    System.out.println("Received TAG Value " + RFIDStringVal.substring(1, RFIDStringVal.length()));
+
+
+                  RFIDTagProcessor.processRFIDTag(RFIDStringVal.substring(1, RFIDStringVal.length()));
 
                 }
 
