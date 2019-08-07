@@ -24,7 +24,7 @@ public class StartupLoadersImpl implements StartupLoaders {
     AppSettings settings = new AppSettings();
 
 
-    @PostConstruct
+//    @PostConstruct
     public void startupLoadAll(){
         try {
             System.out.println("called startup Load All");

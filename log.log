@@ -1,0 +1,950 @@
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+Pre-flight
+Pre-flight #@
+originHeader::http://localhost:4200
+POST "/api/addWorkstationimagemodule", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.addWorkstationImageModule(java.lang.String) throws java.io.IOException
+Read "application/json;charset=UTF-8" to ["{"modelid":"1","workstation":"11","assemblyimagename":"test","loggedinuser":"1","file":"data:image/ (truncated)...]
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+Writing [com.tvs.iot.util.APIResponse@786dee10]
+Completed 200 OK
+Starting IotApplication on Sivadineshs-MacBook-Air.local with PID 7812 (/Users/sivadineshm/Documents/projects/tvs/iot/target/classes started by sivadineshm in /Users/sivadineshm/Documents/projects/tvs/iot)
+Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+The following profiles are active: prod
+Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+Root WebApplicationContext: initialization completed in 4875 ms
+jhkjhj
+called startup Load All
+called startup Load All
+LOAIDNG ... 1~1
+LOAIDNG ... 1~2
+LOAIDNG ... 1~3
+LOAIDNG ... 1~4
+LOAIDNG ... 1~5
+LOAIDNG ... 2~1
+LOAIDNG ... 2~2
+LOAIDNG ... 2~3
+LOAIDNG ... 2~4
+LOAIDNG ... 2~5
+LOAIDNG ... 1~6
+LOAIDNG ... 1~7
+LOAIDNG ... 1~8
+LOAIDNG ... 1~9
+LOAIDNG ... 1~10
+LOAIDNG ... 2~6
+LOAIDNG ... 2~7
+LOAIDNG ... 2~8
+LOAIDNG ... 2~9
+LOAIDNG ... 2~10
+LOAIDNG ... 1~11
+Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+18 mappings in 'requestMappingHandlerMapping'
+Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Started IotApplication in 15.722 seconds (JVM running for 32.882)
+info started
+debug started
+error started
+Starting IotApplication on Sivadineshs-MacBook-Air.local with PID 8065 (/Users/sivadineshm/Documents/projects/tvs/iot/target/classes started by sivadineshm in /Users/sivadineshm/Documents/projects/tvs/iot)
+Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+The following profiles are active: prod
+Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+Root WebApplicationContext: initialization completed in 3702 ms
+jhkjhj
+called startup Load All
+called startup Load All
+LOAIDNG ... 1~1
+LOAIDNG ... 1~2
+LOAIDNG ... 1~3
+LOAIDNG ... 1~4
+LOAIDNG ... 1~5
+LOAIDNG ... 2~1
+LOAIDNG ... 2~2
+LOAIDNG ... 2~3
+LOAIDNG ... 2~4
+LOAIDNG ... 2~5
+LOAIDNG ... 1~6
+LOAIDNG ... 1~7
+LOAIDNG ... 1~8
+LOAIDNG ... 1~9
+LOAIDNG ... 1~10
+LOAIDNG ... 2~6
+LOAIDNG ... 2~7
+LOAIDNG ... 2~8
+LOAIDNG ... 2~9
+LOAIDNG ... 2~10
+LOAIDNG ... 1~11
+Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+18 mappings in 'requestMappingHandlerMapping'
+Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Started IotApplication in 10.837 seconds (JVM running for 24.05)
+info started
+debug started
+error started
+Initializing Servlet 'dispatcherServlet'
+Detected StandardServletMultipartResolver
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+Completed initialization in 25 ms
+Pre-flight #@
+originHeader::http://localhost:4200
+POST "/api/addWorkstationimagemodule", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.addWorkstationImageModule(java.lang.String) throws java.io.IOException
+Read "application/json;charset=UTF-8" to ["{"modelid":"1","workstation":"11","assemblyimagename":"test","loggedinuser":"1","file":"data:image/ (truncated)...]
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+Writing [com.tvs.iot.util.APIResponse@623e6d61]
+Completed 200 OK
+Starting IotApplication on Sivadineshs-MacBook-Air.local with PID 53898 (/Users/sivadineshm/Documents/projects/tvs/iot/target/classes started by sivadineshm in /Users/sivadineshm/Documents/projects/tvs/iot)
+Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+The following profiles are active: prod
+Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+Root WebApplicationContext: initialization completed in 5372 ms
+jhkjhj
+called startup Load All
+called startup Load All
+LOAIDNG ... 1~1
+LOAIDNG ... 1~2
+LOAIDNG ... 1~3
+LOAIDNG ... 1~4
+LOAIDNG ... 1~5
+LOAIDNG ... 2~1
+LOAIDNG ... 2~2
+LOAIDNG ... 2~3
+LOAIDNG ... 2~4
+LOAIDNG ... 2~5
+LOAIDNG ... 1~6
+LOAIDNG ... 1~7
+LOAIDNG ... 1~8
+LOAIDNG ... 1~9
+LOAIDNG ... 1~10
+LOAIDNG ... 2~6
+LOAIDNG ... 2~7
+LOAIDNG ... 2~8
+LOAIDNG ... 2~9
+LOAIDNG ... 2~10
+LOAIDNG ... 1~11
+LOAIDNG ... 1~11
+LOAIDNG ... 1~11
+LOAIDNG ... 10~1
+Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+18 mappings in 'requestMappingHandlerMapping'
+Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Started IotApplication in 16.728 seconds (JVM running for 25.375)
+info started
+debug started
+error started
+Initializing Servlet 'dispatcherServlet'
+Detected StandardServletMultipartResolver
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+Completed initialization in 17 ms
+Pre-flight #@
+originHeader::http://localhost:4200
+Pre-flight
+Pre-flight #@
+originHeader::http://localhost:4200
+POST "/api/signin", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.FrontEndController.signin(java.lang.String,org.springframework.validation.BindingResult)
+Read "application/json;charset=UTF-8" to ["{"username":"admin","password":"admin"}"]
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [com.tvs.iot.util.APIResponse@57971890]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/is-server-alive", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.FrontEndController.isServerConnectionAlive()
+ERROR : RFIDTagReaderClient -  isServerConnectionAlive null
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [com.tvs.iot.util.APIResponse@6da1b884]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getsettings", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Iterable<com.tvs.iot.domain.Setting>> com.tvs.iot.web.api.FrontEndController.getSettings()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[Setting(id=1, key_settings=JIGS, value_settings=20, createdby=null, createddatetime=null, updatedby (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getwscount", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Integer> com.tvs.iot.web.api.FrontEndController.getwscount()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [12]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodules", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Iterable<com.tvs.iot.domain.Model>> com.tvs.iot.web.api.SetupController.getSettings()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/is-server-alive", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.FrontEndController.isServerConnectionAlive()
+ERROR : RFIDTagReaderClient -  isServerConnectionAlive null
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [com.tvs.iot.util.APIResponse@26e7abda]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+Pre-flight
+Pre-flight #@
+originHeader::http://localhost:4200
+POST "/api/addWorkstationimagemodule", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.addWorkstationImageModule(java.lang.String) throws java.io.IOException
+Read "application/json;charset=UTF-8" to ["{"modelid":"1","workstation":"14","assemblyimagename":"","loggedinuser":"1","file":"data:image/png; (truncated)...]
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+Writing [com.tvs.iot.util.APIResponse@44cd6ada]
+Completed 200 OK
+Starting IotApplication on Sivadineshs-MacBook-Air.local with PID 57484 (/Users/sivadineshm/Documents/projects/tvs/iot/target/classes started by sivadineshm in /Users/sivadineshm/Documents/projects/tvs/iot)
+Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+The following profiles are active: prod
+Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+Root WebApplicationContext: initialization completed in 3715 ms
+jhkjhj
+called startup Load All
+called startup Load All
+LOAIDNG ... 1~1
+LOAIDNG ... 1~2
+LOAIDNG ... 1~3
+LOAIDNG ... 1~4
+LOAIDNG ... 1~5
+LOAIDNG ... 2~1
+LOAIDNG ... 2~2
+LOAIDNG ... 2~3
+LOAIDNG ... 2~4
+LOAIDNG ... 2~5
+LOAIDNG ... 1~6
+LOAIDNG ... 1~7
+LOAIDNG ... 1~8
+LOAIDNG ... 1~9
+LOAIDNG ... 1~10
+LOAIDNG ... 2~6
+LOAIDNG ... 2~7
+LOAIDNG ... 2~8
+LOAIDNG ... 2~9
+LOAIDNG ... 2~10
+LOAIDNG ... 1~11
+LOAIDNG ... 1~11
+LOAIDNG ... 1~11
+LOAIDNG ... 10~1
+LOAIDNG ... 1~14
+Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+18 mappings in 'requestMappingHandlerMapping'
+Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+Started IotApplication in 11.406 seconds (JVM running for 24.188)
+info started
+debug started
+error started
+Initializing Servlet 'dispatcherServlet'
+Detected StandardServletMultipartResolver
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+Completed initialization in 116 ms
+Pre-flight #@
+originHeader::http://localhost:4200
+POST "/api/addWorkstationimagemodule", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.addWorkstationImageModule(java.lang.String) throws java.io.IOException
+Read "application/json;charset=UTF-8" to ["{"modelid":"1","workstation":"14","assemblyimagename":"quick image","loggedinuser":"1","file":"data (truncated)...]
+called startup Load All
+called startup Load All
+LOAIDNG ... 1~1
+LOAIDNG ... 1~2
+LOAIDNG ... 1~3
+LOAIDNG ... 1~4
+LOAIDNG ... 1~5
+LOAIDNG ... 2~1
+LOAIDNG ... 2~2
+LOAIDNG ... 2~3
+LOAIDNG ... 2~4
+LOAIDNG ... 2~5
+LOAIDNG ... 1~6
+LOAIDNG ... 1~7
+LOAIDNG ... 1~8
+LOAIDNG ... 1~9
+LOAIDNG ... 1~10
+LOAIDNG ... 2~6
+LOAIDNG ... 2~7
+LOAIDNG ... 2~8
+LOAIDNG ... 2~9
+LOAIDNG ... 2~10
+LOAIDNG ... 1~11
+LOAIDNG ... 1~11
+LOAIDNG ... 1~11
+LOAIDNG ... 10~1
+LOAIDNG ... 1~14
+LOAIDNG ... 1~14
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+Writing [com.tvs.iot.util.APIResponse@1eec1c2]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodules", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Iterable<com.tvs.iot.domain.Model>> com.tvs.iot.web.api.SetupController.getSettings()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/11", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=11, partnumber=asdf, module=ads, nooftags=1, isactive=Y, createdby=1, createddatetime=2019- (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/11", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[]]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodules", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Iterable<com.tvs.iot.domain.Model>> com.tvs.iot.web.api.SetupController.getSettings()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/10", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=10, partnumber=test , module=model 3, nooftags=11, isactive=Y, createdby=1, createddatetime (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/10", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=10, id=null, partnumber=test , module=model 3, isactive=Y, workstation=1, noofta (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodules", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Iterable<com.tvs.iot.domain.Model>> com.tvs.iot.web.api.SetupController.getSettings()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/2", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=2, partnumber=P4181560, module=U123 Diesel Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/2", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=2, id=null, partnumber=P4181560, module=U123 Diesel Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodules", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Iterable<com.tvs.iot.domain.Model>> com.tvs.iot.web.api.SetupController.getSettings()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getmodelinfo/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<com.tvs.iot.domain.Model> com.tvs.iot.web.api.SetupController.getModelInfo(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [Model(id=1, partnumber=G4181560, module=U123 Petrol Export, nooftags=10, isactive=Y, createdby=null, (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getworkstationimages/1", parameters={}
+Mapped to public org.springframework.http.ResponseEntity com.tvs.iot.web.api.SetupController.getWorkstationImages(java.lang.String)
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [[ModelWsDTO(modelid=1, id=null, partnumber=G4181560, module=U123 Petrol Export, isactive=Y, workstat (truncated)...]
+Completed 200 OK
+Pre-flight #@
+originHeader::http://localhost:4200
+GET "/api/getwscount", parameters={}
+Mapped to public org.springframework.http.ResponseEntity<java.lang.Integer> com.tvs.iot.web.api.FrontEndController.getwscount()
+Using 'application/json', given [application/json, text/plain, */*] and supported [application/json]
+Writing [12]
+Completed 200 OK
